@@ -1,0 +1,301 @@
+@media (max-width:375px) {
+nav{
+    position: fixed;
+}
+nav ul li{
+    display: none;
+}
+.hero{
+    width: 100%;
+}
+.right{
+    width: 100%;
+    margin-top: -30px;
+}
+.right h1{
+    font-size: 40px;
+    padding-right: 10px;
+}
+.hero-p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.sec1{
+    width: 100%;
+    height: 1000px;
+    display: block;
+    padding-top: 50px;
+    position: relative;
+    left: -30px;
+}
+.sec1-left{
+    width: 100%;
+}
+.sec1_h2{
+    width: 350px;
+    font-size: 40px;
+}
+.sec1-right{
+    position: relative;
+    top: 50px;
+    left: -0px;
+    width: 100%;
+
+}
+.sec2{
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-top: 50px;
+    position: relative;
+    left: -30px;
+}
+.sec2-left_h1{
+    width: 100%;
+    font-size: 40px;
+}
+.sec2-left_p{
+    width: 300px;
+    text-align: justify;
+}
+.imgtop img{
+    width: 100px;
+}
+.imgbottom img{
+    width: 100px;
+}
+.sec2-right{
+    position: relative;
+    left: -0;
+    top: -40px;
+    width: 120%;
+}
+
+.box1 p, .box2 p{
+    font-size: 15px;
+}
+.box1, .box2{
+    overflow: hidden;
+}
+.sec3{
+    width: 100%;
+    display: block;
+    position: relative;
+    left: -30px;
+    top: -50px;
+}
+.sec3-left{
+    width: 100%;
+}
+.sec3-h4{
+    width: 400px;
+}
+.sec3-h1{
+    width: 400px;
+    font-size: 50px;
+}
+.sec3-p{
+    width: 310px;
+    text-align: justify;
+}
+.sec3-right{
+    width: 100%;
+}
+.fa-plus{
+    display: none;
+}
+.sec3-right-h1{
+    width: 320px;
+}
+.sec3-right-h2{
+    width: 320px;
+}
+.sec3-right-h3{
+    width: 320px;
+}
+.sec3-right-h4{
+    width: 320px;
+}
+.sec5{
+    width: 100%;
+    display: block;
+    position: relative;
+    background-color: white;
+    left: -100px;
+    top: 250px;
+}
+.sec5-top h5{
+    position: relative;
+    top: -140px;
+}
+.sec5-top h2{
+    position: relative;
+    top: -120px;
+    width: 380px;
+    font-size: 30px;
+}
+.sec5-bottom{
+    display: block;
+    position: relative;
+    top: -120px;
+}
+.cardo{
+    position: relative;
+    right: 20px;
+}
+.cardo img{
+    position: relative;
+    left: 100px;
+}
+.cardo h3{
+    width: 300px;
+}
+.cardo p{
+    width: 300px;
+}
+.second{
+    position: relative;
+    top: -120px;
+}
+.third{
+    position: relative;
+    top: -220px;
+}
+.sec6{
+  width: 100%;  
+  position: relative;
+  top: 670px;
+  left: -30px;
+}
+.plans{
+    display: block;
+}
+.card{
+    width: 300px;
+}
+.sec6-h5, .sec6-h2{
+    position: relative;
+    left: 30px;
+    font-size: 40px;
+}
+.secondcard{
+    position: relative;
+    top: 20px;
+}
+.thirdcard{
+    position: relative;
+    bottom: 0px;
+}
+.testimonal{
+        position: relative;
+        top: 1600px;
+        display: block;
+    }
+    .cards{
+        padding: 20px 0;
+        margin-left: 1%;
+    }
+    .cards p{
+        width: 300px;
+    }   
+
+    .sec7-h5{
+        margin-top: 30px;
+        margin-bottom: 20px;
+         position: relative;
+        top: 1700px;
+    }
+    .sec7-h1{
+        position: relative;
+        font-size: 30px;
+        top: 1600px;
+    }
+
+
+    .sec8{
+        width: 100%;
+    }
+    .Timing{
+        position: relative;
+        top: 1700px;
+    }
+    .Time-top-h2{
+        padding-top:500px ;
+    }
+    .top{
+        width: 100%;
+    }
+    .bottom{
+        width: 100%;
+        display: block;
+    }
+    .Timing .top{
+        display: block;
+    }
+    .Time-top-p{
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .col{
+        width: 100%;
+        position: relative;
+        right: 100px;
+        top: -60px;
+        list-style: none;
+        text-align: center;
+        padding-top: 0;
+    }
+    .col h4{
+        font-size: 30px;
+    }
+    .col2{
+        position: relative;
+        top: -100px;
+    }
+    .col3{
+        position: relative;
+        top: -140px;
+        right:230px;
+        width: 400px;
+    }
+    .col3-h4{
+        width: 100%;
+        font-size: 40px;
+    }
+    .col3-line1-h3{
+        width: 100%;
+        display: flex;
+    }
+    .col3-line1-h4{
+        width: 100%;
+        position: relative;
+        left: 30px;
+        
+    }
+    .line1 h4,.line2 h4,.line3 h4{
+        font-size: 25px;
+    }
+    .col4{
+        position: relative;
+        top: -100px;
+        right:230px;
+        width: 400px;
+    }
+    footer{
+        position: relative;
+        top: 3110px;
+    }
+    footer ul{
+        display: none;
+    }
+    footer h5{
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+
+
+}

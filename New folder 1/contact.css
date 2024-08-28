@@ -1,0 +1,396 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    height: 100px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    padding: 0 5%;
+
+}
+.container{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    
+}
+nav ul{
+    padding-top: 15px;
+    list-style: none;
+    float: right;
+    
+}
+nav ul li {
+    line-height: 70px;
+    display: inline-block;
+    color: pink;
+    gap: 20px;
+    padding: 0 15px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.fa-bars{
+    float: right;
+    line-height: 100px;
+    margin-left: 40px;
+    display: none;
+}
+nav  a{
+    text-decoration: none;
+    color: orange;
+}
+nav button{
+    position: relative;
+    left: 80px;
+    padding: 10px 15px;
+    background-color: orange;
+}
+nav label{
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 100px;
+    
+}
+.fa-sort-down{
+    position: relative;
+    left: 10px;
+    bottom: 4px;
+}
+
+.hero{
+    height: 100vh;
+    background-image: url("./img/contactbg1.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+}
+.hero h3{
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    padding-left: 100px;
+    padding-top: 160px;
+}
+.hero h1{
+    padding-top: 25px;
+    font-size: 80px;
+    font-weight: 900;
+    color: orange;
+    padding-left: 80px;
+    text-transform: uppercase;
+}
+.hero p{
+    padding-top: 15px;
+    font-size: 23px;
+    font-weight: 900;
+    color: white;
+    width: 600px;
+    line-height: 29px;
+    padding-left: 90px;
+    
+}
+.hero button{
+    margin-top: 25px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 15px 25px;
+    background-color: orange;
+    margin-left: 90px;
+}
+
+
+
+main{
+    width: 100%;
+    height: 100vh;
+    padding: 150px 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e7e7e7;
+}
+.left{
+    width: 50%;
+}
+
+.right{
+    width: 50%;
+}
+.right h1{
+    font-size: 40px;
+   padding-top: 10px;
+   text-transform: uppercase;
+   padding-left: 10px;
+}
+.name,.email{
+    width: 48%;
+    padding: 10px 25px;
+    outline: none;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.number{
+    width: 98%;
+    padding: 10px 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+    outline: none;
+}
+#text{
+    padding:10px 25px;
+    width: 98%;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 10px;
+    outline: none;
+}
+::placeholder{
+    font-size: 15px;
+    font-weight: 600;
+}
+button{
+    padding: 10px 30px;
+    margin: 20px 10px;
+    background-color: orange;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+
+}
+.left h1{
+    font-size: 40px;
+    font-weight: 900;
+   padding-top: 10px;
+   padding-left: 20px;
+}
+.left p{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.Address,.Email,.Phone,.Clock{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.Address h1,.Email h1,.Phone h1,.Clock h1{
+    font-size: 29px;
+}
+.Address p,.Email p,.Phone p,.Clock p{
+    font-size: 20px;
+    padding-top: 0px;
+}
+.addressdetail h1,.emaildetail h1,.Phonedetail h1,.clockdetail h1,h3,h4{
+    padding-left: 20px;
+}
+.bottom2{
+    padding-top: 30px;
+}
+.addressicon,.emailicon,.Phoneicon,.clockicon{
+    background-color: rgb(49, 41, 41);
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+
+.sec8{
+    width: 100%;
+    height: 60vh;
+    padding-top: 60px;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    gap: 7px;
+}
+
+.col1{
+    color: white;
+    width: 20%;
+    height: 40vh;
+    color: black;
+   
+}
+.col2{
+    color: white;
+    width: 20%;
+    height: 40vh;
+    color: black;
+    
+}
+.col3{
+    color: white;
+    width: 30%;
+    height: 40vh;
+    color: black;
+    padding: 0 20px;
+    margin-right: 60px;
+}
+.col4{
+    color: white;
+    width: 30%;
+    height: 40vh;
+    color: black;
+    
+}
+.Timing .top{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-top: -10px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #dadada;
+}
+.Time-top-h2{
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.Time-top-p{
+    width: 60%;
+    font-size: 20px;
+}
+.Timing .bottom{
+    padding:0px 6%;
+    padding-top: 80px;
+}
+.col3-h4{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.col3 .line1{
+    padding-top: 30px;
+    border-bottom: 1px solid #dadada;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+.col3-line1-h3{
+    font-size: 18px;
+}
+.col3-line2-h5{
+    font-size: 18px;
+}
+.col3-line3-h5{
+    font-size: 18px;
+}
+.col3 .line2{
+    padding-top: 30px;
+    border-bottom: 1px solid #dadada;
+    padding-bottom: 10px; 
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+.col3 .line3{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+.sec8 .bottom{
+    padding-left: 220px;
+}
+.col1-h4{
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.col2-h4{
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.col4-h4{
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.col1 li{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.col2 li{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.line1 input{
+    margin-top: 20px;
+    margin-bottom: 38px;
+    padding: 10px 25px;
+}
+.line1 button{
+    padding: 10px 25px;
+    background-color: orange;
+}
+.line2 .fa-brands{
+    font-size: 30px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.firstcon{
+    display: flex;
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(210, 218, 218);
+    margin-top: 10px;
+}
+.box1{
+    color: aliceblue;
+    width: 60%;
+    height: 25vh;
+    background-color: black;
+}
+.box2 img{
+    width: 100%;
+    height: 25vh;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: black;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    padding: 0 6%;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    cursor: pointer;
+}
